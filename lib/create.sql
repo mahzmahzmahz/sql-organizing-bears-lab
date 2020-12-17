@@ -18,7 +18,11 @@ INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES ("Wendy", 6
 INSERT INTO bears (name, age, sex, color, temperament, alive) VALUES (null, 20, "M", "black", "aggressive", 0);
 
 
-/*selects all of the female bears and returns their name and age (FAILED - 1)*/
+/*selects all of the female bears and returns their name and age (FAILED - 1)
 SELECT bears.name, bears.age FROM bears WHERE sex = 'F';
 
-SELECT DISTINCT * FROM bears ORDER BY age DESC LIMIT 1;
+SELECT * FROM bears ORDER BY age DESC LIMIT 1;
+
+SELECT * FROM bears ORDER BY age ASC LIMIT 1; */
+
+
